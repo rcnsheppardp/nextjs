@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import { Header } from "../components/Header";
+import { InputText } from "../components/InputText";
 //import { fetchPets } from "../helpers/fetchPets";
 //import { helloDevJam, helloWorld } from "../helpers/helloWorld";
 
@@ -13,7 +13,6 @@ export default function Home() {
 
   return (
     <main>
-      <Header />
       <h1>Hello, World!</h1>
       <Link href="/about">
         <a>About</a>
@@ -23,6 +22,9 @@ export default function Home() {
           <li key={pet.id}>{pet.name}</li>
         ))} */}
       </ul>
+      <InputText id={"firstname"} label={"First name"} required={true} />
+      <InputText id={"middlename"} label={"Middle name"} required={false} />
+      <InputText id={"lastname"} label={"Last name"} required={true} />
     </main>
   );
 }
