@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { Header } from "../components/header";
-import { fetchPets } from "../helpers/fetchPets";
-import { helloDevJam, helloWorld } from "../helpers/helloWorld";
+//import { fetchPets } from "../helpers/fetchPets";
+//import { helloDevJam, helloWorld } from "../helpers/helloWorld";
 
 export default function Home() {
   //useState();
