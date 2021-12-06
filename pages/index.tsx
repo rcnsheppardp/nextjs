@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import { Header } from "../components/header";
+import { Header } from "../components/Header";
 //import { fetchPets } from "../helpers/fetchPets";
 //import { helloDevJam, helloWorld } from "../helpers/helloWorld";
 
