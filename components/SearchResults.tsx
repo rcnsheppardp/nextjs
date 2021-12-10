@@ -1,12 +1,13 @@
 //import { useEffect } from "react";
 //import { SolrClientParams } from "solr-client";
-import { createClient } from "solr-client";
+//import { createClient } from "solr-client";
 
 type SearchResultsProps = {
   search: object[];
 };
 
 export async function getStaticProps() {
+  /*
   const client = createClient({ host: "localhost", port: 8984 });
 
   const obj = await client.search("rcn");
@@ -18,6 +19,7 @@ export async function getStaticProps() {
       search: obj,
     },
   };
+  */
 }
 
 export function SearchResults(props: SearchResultsProps) {
