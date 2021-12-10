@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Team 1",
+    "hits": [
+      {
+        "timestamp": 0,
+        "geo": {
+          "latitude": 51.6,
+          "longitude": -3.14,
+          "accuracy:": 42,
+          "speed": 4.5,
+          "heading": 50,
+          "altitude": 100
+        }
+      }
+    ]
+  },
+  {
+    "name": "Team B",
+    "hits": [
+      {
+        "timestamp": 0,
+        "geo": {
+          "latitude": 51.6,
+          "longitude": -3.14,
+          "accuracy:": 42,
+          "speed": 4.5,
+          "heading": 50,
+          "altitude": 100
+        }
+      },
+      {
+        "timestamp": 0,
+        "geo": {
+          "latitude": 51.6,
+          "longitude": -3.14,
+          "accuracy:": 42,
+          "speed": 4.5,
+          "heading": 50,
+          "altitude": 100
+        }
+      }
+    ]
+  }
+]

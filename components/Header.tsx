@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header>
       <h2>
-        <Link href="/">LOGO</Link>
+        <Link href="/">HappyTracker</Link>
       </h2>
     </header>
   );
