@@ -23,8 +23,8 @@ export async function getStaticProps() {
 export function SearchResults(props: SearchResultsProps) {
   return (
     <ul>
-      {props.search.map((s) => (
-        <li>{s}</li>
+      {props.search.map((s, index) => (
+        <li key={index}>{s}</li>
       ))}
     </ul>
   );
